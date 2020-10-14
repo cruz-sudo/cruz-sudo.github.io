@@ -1,25 +1,25 @@
 .left {
-	width: 45%;
+	width: 48%;
+  height: 100%;
 	display: inline-block;
 	padding: 10px;
-  margin: 10px;
-  border-color: blue;
-  border-width: 2px;
+  margin: 0;
+  border: solid blue 2px;
 }
 .right {
-  width: 45%;
+  width: 48%;
+  height: 100%;
 	display: inline-block;
 	padding: 10px;
-  margin: 10px;
-  border-color: blue;
-  border-width: 2px;
+  margin: 0px;
+  border: solid green 2px;
 }
-.day{
-  width: 12%;
+.left .day{
+  width: 7%;
+  float: left;
   display: inline-block;
   padding: 10px;
   margin: 10px;
-  border-color: pink;
-  border-width: 2px;
-  border-radius: 10px;
+  border: solid black 2px;
+  border-radius: 5px;
 }
